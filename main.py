@@ -47,12 +47,3 @@ def get_time():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=80)
-
-
-"""
-x = input("What do you see on the clock? Please use HH:MM formating: ")
-
-#error handling for input
-
-print("The real time is: ", realTime(x))
-"""
