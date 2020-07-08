@@ -147,7 +147,7 @@ resource "aws_ecs_task_definition" "definition" {
 container_definitions = <<DEFINITION
 [
   {
-    "image": "714172735080.dkr.ecr.eu-central-1.amazonaws.com/aungvari/chemaxon:latest",
+    "image": "714172735080.dkr.ecr.eu-central-1.amazonaws.com/aungvari/flask-api:latest",
     "name": "flask-container",
     "portMappings": [
       {
