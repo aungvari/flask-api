@@ -31,6 +31,7 @@ curl --location --request POST '0.0.0.0/mirror_clock/api/v1.0/convert' \
 - run `terraform init` in the same directory as your main.tf file
 - change the value of "image" in line 150 to your Image URI from ECR
 - verify if your account is in eu-central-1
+- run `terraform apply`
 
 ## Possible improvements
 - error handling in python for invalid inputs
