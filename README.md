@@ -41,3 +41,13 @@ curl --location --request POST '0.0.0.0/mirror_clock/api/v1.0/convert' \
 - put the state file into an s3 bucket or vault and encrypt it
 - split main.tf into modules like network.tf and iam.tf to be more dynamic
 - use a loadbalancer if there is need for HA and running multiple instances
+
+##
+- you can currently test with
+```
+curl --location --request POST '18.197.35.113/mirror_clock/api/v1.0/convert' \
+--header 'Content-Type: application/json' \
+--data-raw '{ 
+   "time":"11:11"
+}'
+```
